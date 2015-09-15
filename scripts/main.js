@@ -1,11 +1,11 @@
 'use strict';
 
-var $redLink = $('#red-link');
-var $redSection = $('#red-sec');
-var $greenLink = $('#green-link');
-var $greenSection = $('#green-sec');
-var $blueLink = $('#blue-link');
-var $blueSection = $('#blue-sec');
+var $redLink = $('a:first-child');
+var $redSection = $('div:nth-child(2)');
+var $greenLink = $('a:nth-child(2)');
+var $greenSection = $('div:nth-child(3)');
+var $blueLink = $('a:last-child');
+var $blueSection = $('div:nth-child(4)');
 var $allA = $('a');
 
 $redLink.on('click', function(){
@@ -38,3 +38,4 @@ $blueLink.on('click', function(){
 	$greenSection.css('display','none');
 	$redSection.css('display', 'none');
 })
+

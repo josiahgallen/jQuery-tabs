@@ -16,17 +16,17 @@ nav {
 	padding-top: 1em;
 }
 
-#red-link:hover {
+a:first-child:hover {
 	background: red;
 	color: white;
 }
 
-#green-link:hover {
+a:nth-child(2):hover {
 	background: green;
 	color: white;
 }
 
-#blue-link:hover {
+a:last-child:hover {
 	background: blue;
 	color: white;
 }
